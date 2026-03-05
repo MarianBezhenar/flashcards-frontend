@@ -119,7 +119,7 @@ const Auth = () => {
         <div className="backdrop-blur-xl bg-white/10 rounded-3xl p-8 shadow-2xl border border-white/20">
           {/* Logo */}
           <div className="text-center mb-8">
-            <h1 className="text-white text-2xl font-bold mb-1">Your logo</h1>
+            <h1 className="text-white text-2xl font-bold mb-1">FlashCards AI</h1>
             <h2 className="text-white text-3xl font-semibold">
               {mode === 'login' ? 'Login' : 'Register'}
             </h2>

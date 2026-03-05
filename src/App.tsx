@@ -6,6 +6,7 @@ import Home from './pages/Home';
 import MyDecks from './pages/MyDecks';
 import CreateDeck from './pages/CreateDeck';
 import StudyMode from './pages/StudyMode';
+import ChatAssistant from './components/ChatAssistant';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
         {/* Public routes - both render same Home */}
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        <ChatAssistant/>
         
         {/* Auth */}
         <Route path="/auth" element={<Auth />} />
