@@ -16,7 +16,6 @@ function App() {
         {/* Public routes - both render same Home */}
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
-        <ChatAssistant/>
         
         {/* Auth */}
         <Route path="/auth" element={<Auth />} />
@@ -29,6 +28,7 @@ function App() {
         {/* Fallback */}
         <Route path="*" element={<Navigate to="/" replace />} />
       </Routes>
+      <ChatAssistant/>
     </Router>
   );
 }
