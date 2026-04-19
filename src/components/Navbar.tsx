@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../components/context/AuthContext';
-import { BookOpen, LogOut, User, Layers } from 'lucide-react';
+import { LogOut, User, Layers } from 'lucide-react';
 
 const Navbar = () => {
   const { isAuthenticated, user, logout } = useAuth();
@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <Link to="/" className="flex items-center gap-2">
-            <BookOpen className="w-8 h-8 text-blue-400" />
+            <img src="/icon.png" alt="Flashcards logo" className="w-8 h-8 object-contain" />
             <span className="text-xl font-bold text-slate-100">Flashcards</span>
           </Link>
 
