@@ -12,11 +12,6 @@ const loginWithGoogle = () => {
     "https://flashcards-backend-production-601e.up.railway.app/oauth2/authorization/google";
 };
 
-const loginWithGithub = () => {
-  window.location.href =
-    "https://flashcards-backend-production-601e.up.railway.app/oauth2/authorization/github";
-};
-
 const Auth = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -308,13 +303,24 @@ const Auth = () => {
               <Chrome className="w-5 h-5 text-white" />
             </motion.button>
             <motion.button
-              onClick={loginWithGithub}
+              whileHover={{ scale: 1.05, y: -2 }}
+              whileTap={{ scale: 0.95 }}
+              type="button"
+              onClick={() => {
+                window.location.href =
+                  "https://flashcards-backend-production-601e.up.railway.app/oauth2/authorization/github";
+              }}
+              className="flex-1 py-2.5 bg-white/10 hover:bg-white/20 border border-white/20 rounded-xl flex items-center justify-center transition-all"
+            >
+              <Github className="w-5 h-5 text-white" />
+            </motion.button>
+            <motion.button
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               type="button"
               className="flex-1 py-2.5 bg-white/10 hover:bg-white/20 border border-white/20 rounded-xl flex items-center justify-center transition-all"
             >
-              <Github className="w-5 h-5 text-white" />
+              <Facebook className="w-5 h-5 text-white" />
             </motion.button>
           </div>
 
