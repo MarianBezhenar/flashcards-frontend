@@ -7,6 +7,11 @@ import { useAuth } from '../components/context/AuthContext';
 
 type AuthMode = 'login' | 'register';
 
+const loginWithGoogle = () => {
+  window.location.href =
+    "https://flashcards-backend-production-601e.up.railway.app/oauth2/authorization/google";
+};
+
 const Auth = () => {
   const navigate = useNavigate();
   const location = useLocation();
@@ -289,6 +294,7 @@ const Auth = () => {
           {/* Social buttons */}
           <div className="flex gap-3 justify-center">
             <motion.button
+              onClick={loginWithGoogle}
               whileHover={{ scale: 1.05, y: -2 }}
               whileTap={{ scale: 0.95 }}
               type="button"

@@ -178,12 +178,8 @@ const Home = () => {
                 className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg mb-8"
               >
                 <p className="text-slate-700 leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-                  nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis 
-                  aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat 
-                  nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui 
-                  officia deserunt mollit anim id est laborum.
+                  Flashcards AI transforms studying into an active, efficient process. Instead of passively reading, you engage your memory through smart repetition and targeted questions. Our AI generates personalized decks based on your needs, helping you focus on what truly matters. Whether you prepare for exams or learn new skills, Flashcards AI makes knowledge stick faster and with less effort.
+
                 </p>
               </motion.div>
 
@@ -205,8 +201,7 @@ const Home = () => {
                 className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg"
               >
                 <p className="text-slate-700 leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-                  incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+                  Flashcards AI transforms studying into an active, efficient process. Instead of passively reading, you engage your memory through smart repetition and targeted questions. Our AI generates personalized decks based on your needs, helping you focus on what truly matters. Whether you prepare for exams or learn new skills, Flashcards AI makes knowledge stick faster and with less effort.
                 </p>
               </motion.div>
             </div>
@@ -301,19 +296,19 @@ const Home = () => {
             {[
               {
                 title: 'FlashCards AI',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+                text: 'Turn any topic into structured knowledge in seconds. Our AI analyzes your input and generates clear, focused flashcards designed for active recall. Instead of wasting time organizing notes, you immediately start learning in the most efficient way possible.',
                 color: 'from-blue-500 to-blue-700',
                 icon: Sparkles,
               },
               {
-                title: 'Text here',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.',
+                title: 'Smart Learning',
+                text: 'Study with intention, not repetition. The system helps you focus on weak areas by guiding your attention to what actually needs improvement. This makes every session shorter, more effective, and less overwhelming.',
                 color: 'from-cyan-400 to-cyan-600',
                 icon: Lightbulb,
               },
               {
-                title: 'Text here',
-                text: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.',
+                title: 'Track Your Progress',
+                text: 'See how well you really understand a topic. After each session, get simple feedback on what you know and what needs more work. Clear results help you stay consistent and improve over time without guessing.',
                 color: 'from-purple-500 to-purple-700',
                 icon: Target,
               },
